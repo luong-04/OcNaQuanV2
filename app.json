@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Ốc Na Quán",
-    "slug": "OcNaAppV2",
-    "scheme": "com.ocna.app",
+    "name": "Ốc Na Quán V2",
+    "slug": "oc-na-quan-v2",
+    "scheme": "ocnaquanv2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,10 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ocna.app.v2"
     },
     "android": {
-      "package": "com.ocna.app",
+      "package": "com.ocna.app.v2",
       "permissions": [
         "android.permission.INTERNET",
         "android.permission.ACCESS_NETWORK_STATE"
@@ -37,7 +38,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "a554d347-f04d-4877-8cbd-e1e001ffac70"
+        "projectId": "202d9907-718d-4a83-9401-fa3b17f91166"
       }
     }
   }
